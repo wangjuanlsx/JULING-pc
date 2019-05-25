@@ -1,0 +1,41 @@
+.clearfix {
+    clear: both;
+}
+.clearfix:after {
+    clear: both;
+    display: block;
+    visibility: hidden;
+    font-size: 0;
+    content: " ";
+    height: 0;
+}
+.clearfix {
+    zoom: 1;
+}
+html,body,header,section,footer,div,ul,ol,li,img,a,span,em,del,legend,center,strong,var,fieldset,form,label,dl,dt,dd,cite,input,hr,time,mark,code,figcaption,figure,textarea,h1,h2,h3,h4,h5,h6,p{
+    margin:0;
+    border:0;
+    padding:0;
+    font-style:normal;
+}
+ul, li {
+    list-style: none;
+}
+p {
+    font-size: 0.7rem;
+    color: #757575;
+}
+a {
+    color: #0062cc;
+    text-decoration: none;
+    background-color: transparent;
+}
+a:hover {
+    outline: 0;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
