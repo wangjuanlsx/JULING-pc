@@ -1,8 +1,10 @@
 body{
-    background: #000;
+    background: #161729;
 }
 .kf-table-wrap{
     position: relative;
+    width: 1520px;
+    margin: 0 auto;
 }
 .kf-table-bg-img{
     width: 100%;
