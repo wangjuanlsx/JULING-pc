@@ -100,6 +100,9 @@ img.kf-table-header-pig{
     background-size: contain;
 }
 /*左边js实现翻转牌*/
+.brand{
+    margin-left: 15px;
+}
 .kf-table-left-wrap{
     width: 350px;
     height: 400px;
@@ -120,7 +123,7 @@ img.kf-table-header-pig{
 }
 .kf-table-left-item .kf-table-left-turn{
     display: none;
-    height: 350px;
+    height: 400px;
     line-height:400px;
 }
 .kf-table-left-item img.prev-img{
@@ -372,13 +375,14 @@ img.kf-table-left-turn{
     width: 100%;
 }
 .kf-table-footer{
-    width: 1018px;
-    margin: -230px auto 0 auto;
+    width: 1150px;
+    margin: -260px auto 0 auto;
     position: relative;
 }
 .kf-table-footer-item1-left li{
     width: 130px;
     height: 50px;
+    margin-right: 17px;
     float: left;
 }
 .kf-table-footer-item1-left li.kf-table-footer-item1-left1{
@@ -394,15 +398,18 @@ img.kf-table-left-turn{
 }
 .kf-table-footer-item1-left1 li{
     float: left;
-    margin-left: 25px;
+    margin-right: 56px;
     cursor: pointer;
 }
 .kf-table-footer-item1-left2 img{
-    width: 80%;
-    margin-left: 22px;
+    width: 90%;
+    margin-left: 0;
 }
 .kf-table-footer-item1-left img{
-    width: 80%;
+    width: 100%;
+}
+.kf-table-footer-item1-left1 ul{
+    margin-left: 18px;
 }
 .kf-table-footer-item1-left1 li.kf-table-footer-item1-left3{
     background: url(../images/kf-table/footer3.png) no-repeat;
@@ -431,11 +438,10 @@ img.kf-table-left-turn{
     background-position: 0 -91px;
 }
 .CopyRight-text{
-    font-size: 13px;
+    font-size: 15px;
     color: #5b5b5b;
     font-weight: bold;
-    text-align: center;
-    margin-top: 6px;
+    margin-left: 17px;
 }
 .kf-table-footer-item1-left8{
     width: 168px;
@@ -449,13 +455,14 @@ img.kf-table-left-turn{
 }
 .kf-table-footer-item2 ul{
     display: inline-block;
-    margin-left: 128px;
+    margin: 20px 0 29px 128px;
 }
 .kf-table-footer-item2 li{
     float: left;
-    width: 157px;
+    width: 204px;
     height: 62px;
-    margin: 10px;
+    cursor: pointer;
+    margin: 0 10px;
 }
 .kf-table-footer-item2 li.kf-table-footer-item2-left1{
     background: url(../images/kf-table/footer4.png) no-repeat;
@@ -479,9 +486,9 @@ img.kf-table-left-turn{
 
  .kf-table-footer-item3 li{
      float: left;
-     width: 87px;
+     width: 110px;
      height: 29px;
-     margin: 5px 18px;
+     margin: 5px 12px;
  }
 .kf-table-footer-item3 li.kf-table-footer-item3-left1{
     background: url(../images/kf-table/footer2.png) no-repeat;
@@ -529,18 +536,18 @@ img.kf-table-left-turn{
 }
 .kf-table-footer-item4 ul{
     display: inline-block;
-    margin-left: 130px;
+    margin-left: 196px;
 }
 .kf-table-footer-item4 li{
     float: left;
-    width: 66px;
+    width: 85px;
     height: 19px;
-    margin: 5px 28px;
+    margin: 5px 24px;
     cursor: pointer;
     /*border-right: 1px solid #5b5b5b;*/
 }
 .kf-table-footer-item1-left1 li img{
-    width: 80%;
+    width: 100%;
 }
 .kf-table-footer-item3 li img{
     width: 90%;
