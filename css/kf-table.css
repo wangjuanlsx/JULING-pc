@@ -3,7 +3,7 @@ body{
 }
 .kf-table-wrap{
     position: relative;
-    width: 1520px;
+    width: 1900px;
     margin: 0 auto;
 }
 .kf-table-header-img-wrap{
@@ -32,9 +32,9 @@ img.kf-table-header-pig{
     height: 100%;
 }*/
 .kf-table-content-wrap{
-    width: 1520px;
+    width: 1900px;
     height: 100%;
-    margin: -380px auto 0 auto;
+    margin: -480px auto 0 auto;
     position: relative;
     /*margin: 0 0;
     position: absolute;
@@ -101,7 +101,7 @@ img.kf-table-header-pig{
 }
 /*左边js实现翻转牌*/
 .kf-table-left-wrap{
-    width: 200px;
+    width: 350px;
     height: 400px;
     margin-top: 50px;
     /*position: absolute;
@@ -113,31 +113,31 @@ img.kf-table-header-pig{
     height: 100%;
 }
 .kf-table-left-item{
-    width: 236px;
-    height: 260px;
+    width: 350px;
+    height: 400px;
     text-align: center;
     position: relative;
 }
 .kf-table-left-item .kf-table-left-turn{
     display: none;
-    height: 260px;
-    line-height:260px;
+    height: 350px;
+    line-height:400px;
 }
 .kf-table-left-item img.prev-img{
-    width: 236px;
-    height: 260px;
+    width: 350px;
+    height: 400px;
     cursor: pointer;
 }
 img.kf-table-left-turn{
-    width: 236px;
-    height: 260px;
+    width: 350px;
+    height: 400px;
     cursor: pointer;
 }
 
 /*css实现翻转*/
 .kf-table-left-flip{
-    width: 118%;
-    height: 65%;
+    width: 113%;
+    height: 102%;
     position: relative;
     -webkit-perspective: 1000px;
     perspective: 1000px;
@@ -208,9 +208,9 @@ img.kf-table-left-turn{
 }
 /*右边*/
 .kf-table-right-wrap{
-    width: 14%;
-    height: 30%;
-    margin-right: 40px;
+    width: 320px;
+    height: 886px;
+    margin-right: 65px;
     margin-top: 50px;
     /*position: absolute;
     top: 60.5%;
@@ -225,7 +225,7 @@ img.kf-table-left-turn{
 }
 /*中间表格*/
 .kf-table-center-table-wrap {
-    width: 67%;
+    width: 58%;
     /* height: 65%; */
     padding-bottom: 2px;
     margin-left: 40px;
