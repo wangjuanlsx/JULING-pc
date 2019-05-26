@@ -1,0 +1,335 @@
+body{
+    background: #000;
+}
+.kf-table-wrap{
+    position: relative;
+}
+.kf-table-bg-img{
+    width: 100%;
+    height: 100%;
+}
+.kf-table-content-wrap{
+    width: 100%;
+    height: 100%;
+    margin: 0 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.kf-table-content{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+/*头部圈圈*/
+.kf-table-header-wrap{
+    width: 20%;
+    height: 15%;
+    position: absolute;
+    right: 12%;
+    top: 1.5%;
+}
+.kf-table-header-circle-wrap{
+    width: 100%;
+    height: 100%;
+}
+.kf-table-header-circle1 img{
+     width: 43%;
+     height: 43%;
+
+ }
+.kf-table-header-circle2 img{
+    width: 35%;
+    height: 35%;
+    margin: -30% 0 0 43%;
+}
+.kf-table-header-circle3 img{
+    width: 32%;
+    height: 32%;
+    margin: -9% 0 0 21%;
+}
+.kf-table-header-circle4 img{
+    width: 28%;
+    height: 28%;
+    margin: 0% 0 0 23%;
+}
+/*头部下载按钮*/
+.kf-table-header-btn-wrap{
+    width: 20%;
+    height: 4%;
+    position: absolute;
+    right: 34%;
+    top: 16%;
+}
+.kf-table-header-btn{
+    width: 100%;
+    height: 100%;
+    background: url(../images/kf-table/btn-nomal.png) no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+.kf-table-header-btn:hover{
+    background: url(../images/kf-table/btn-hover.png) no-repeat;
+    background-size: contain;
+}
+/*左边翻转牌*/
+.kf-table-left-wrap{
+    width: 15%;
+    height: 30%;
+    position: absolute;
+    top: 25%;
+    left: 0;
+}
+.kf-table-left{
+    width: 100%;
+    height: 100%;
+}
+.kf-table-left-item{
+    width: 100%;
+    height: 353px;
+    text-align: center;
+    position: relative;
+}
+.kf-table-left-item .kf-table-left-turn{
+    display: none;
+    height: 353px;
+    line-height:353px;
+}
+.kf-table-left-item img.prev-img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+img.kf-table-left-turn{
+    width: 100%;
+    line-height:100%;
+    cursor: pointer;
+}
+
+/*css实现翻转*/
+.kf-table-left-flip{
+    width: 105%;
+    height: 38%;
+    position: relative;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+}
+.kf-table-left-flip div{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 0.8s ease;
+    -moz-transition: all 0.8s ease;
+    -webkit-transition: all 0.8s ease;
+    -o-transition: all 0.8s ease;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    backface-visibility: hidden;
+    -webkit-backface-visibility:hidden;	/* Chrome 和 Safari */
+    -moz-backface-visibility:hidden; 	/* Firefox */
+    -ms-backface-visibility:hidden; /* Internet Explorer */
+}
+.kf-table-left-flip div.front{
+    background: url(../images/kf-table/trun-img1.png) no-repeat;
+    background-size: contain;
+    z-index: 1;
+}
+/*.flip div:before{
+    content:attr(data-text);
+    width:100%;
+    height:30px;
+    position:absolute;
+    left:0;
+    bottom:0;
+    line-height:30px;
+    text-align:center;
+    color:#fff;
+    background-color:rgba(0,0,0,.3);
+}*/
+.kf-table-left-flip div.back{
+    background: url(../images/kf-table/trun-img-11.png) no-repeat;
+    background-size: contain;
+    z-index: 2;
+}
+.kf-table-left-flip div.front1{
+    background: url(../images/kf-table/trun-img-2.png) no-repeat;
+    background-size: contain;
+    z-index: 1;
+}
+.kf-table-left-flip div.back1{
+    background: url(../images/kf-table/trun-img-22.png) no-repeat;
+    background-size: contain;
+    z-index: 2;
+}
+.kf-table-left-flip:hover div.front{
+    z-index: 2;
+}
+.kf-table-left-flip:hover div.back{
+    z-index: 1;;
+}
+.Y div.back{
+    transform:rotateY(180deg);
+}
+.Y:hover div.front{
+    transform:rotateY(-180deg);
+}
+.Y:hover div.back{
+    transform:rotateY(0deg);
+}
+/*右边*/
+.kf-table-right-wrap{
+    width: 14%;
+    height: 30%;
+    position: absolute;
+    top: 25%;
+    right: 3%;
+}
+.kf-table-right{
+    width: 100%;
+    height: 100%;
+}
+.kf-table-right img{
+    width: 100%;
+}
+/*中间表格*/
+.kf-table-center-table-wrap {
+    width: 67%;
+    height: 65%;
+    position: absolute;
+    top: 23%;
+    left: 15%;
+}
+.kf-table-center{
+    width: 100%;
+    height: 100%;
+}
+.kf-table-center-table{
+    width:100%;
+    table-layout: fixed
+}
+.kf-table-center-table .table-header-tr{
+    height: 40px;
+    line-height: 40px;
+}
+.kf-table-center-table th{
+    background:#4d5c69;
+    opacity: 0.9;
+    color: #f4f3f1;
+    height: 20px;
+    line-height: 20px;
+    font-family: sans-serif;
+    position: relative;
+    /*border-right: 1px solid #f4f3f1;*/
+}
+.kf-table-center-table th:after{
+    position: absolute;
+    right: 0;
+    display: inline-block;
+    content: '';
+    height: 20px;
+    width: 1px;
+    background: #f4f3f1;
+    vertical-align: text-top;
+}
+.kf-table-center-table th.th5:after{
+    position: absolute;
+    right: 0;
+    display: inline-block;
+    content: '';
+    height: 20px;
+    width: 0px;
+    background: #f4f3f1;
+    vertical-align: text-top;
+}
+.kf-table-center-table th.th1{
+    width: 13%;
+}
+.kf-table-center-table th.th2{
+    width: 12%;
+}
+.kf-table-center-table th.th3{
+    width: 17%;
+}
+.kf-table-center-table th.th4{
+    width: 44%;
+}
+.kf-table-center-table th.th5{
+    width: 14%;
+}
+.kf-table-center-table th img{
+    vertical-align: middle;
+
+}
+.kf-table-center-table tr.tr-color1{
+    text-align: center;
+    background: #efe97a;
+    height: 45px;
+    cursor: pointer;
+}
+.kf-table-center-table tr.tr-color1 td{
+    border: 1px solid #c0a375;
+    border-top: none;
+    border-left: none;
+}
+.kf-table-center-table tr.tr-color1:hover{
+    background:#fffed4;
+}
+.kf-table-center-table tr.tr-color1 td p{
+    font-size: 12px;
+}
+.text-color1{
+    color: #7d330e;
+}
+.text-color2{
+    color: #f50101;
+}
+.text-style3-wrap{
+    position: relative;
+}
+.text-style3-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.text-style3{
+    width: 86%;
+}
+.text-style3-img{
+    width: 13%;
+}
+.text-style3-img img{
+    width: 100%;
+}
+.last-td img{
+    width: 70%;
+}
+
+.text-style2-img{
+    position: absolute;
+    top: 2px;
+    right: 0px;
+}
+.text-style2-img img{
+    width: 100%;
+}
+.text-color3{
+    color: #019f74;
+}
+.kf-table-center-table tr.tr-color2{
+    background: #f6f2b9;
+}
+.text-color11{
+    color: #515151;
+}
+.kf-table-center-table tr.tr-color3{
+    background: #454545;
+    height: 45px;
+}
+.kf-table-center-table tr.tr-color4{
+    background: #e6e6e5;
+}
+.td-style3 img{
+    width: 100%;
+}

@@ -87,17 +87,19 @@ img.kf-table-header-pig{
     top: 39%;
 }
 .kf-table-header-btn{
-    width: 100%;
-    height: 100%;
+    width: 304px;
+    height: 88px;
     background: url(../images/kf-table/btn-nomal.png) no-repeat;
     background-size: contain;
     cursor: pointer;
 }
 .kf-table-header-btn:hover{
+    width: 304px;
+    height: 88px;
     background: url(../images/kf-table/btn-hover.png) no-repeat;
     background-size: contain;
 }
-/*左边翻转牌*/
+/*左边js实现翻转牌*/
 .kf-table-left-wrap{
     width: 200px;
     height: 400px;
@@ -111,24 +113,24 @@ img.kf-table-header-pig{
     height: 100%;
 }
 .kf-table-left-item{
-    width: 100%;
-    height: 353px;
+    width: 236px;
+    height: 260px;
     text-align: center;
     position: relative;
 }
 .kf-table-left-item .kf-table-left-turn{
     display: none;
-    height: 353px;
-    line-height:353px;
+    height: 260px;
+    line-height:260px;
 }
 .kf-table-left-item img.prev-img{
-    width: 100%;
-    height: 100%;
+    width: 236px;
+    height: 260px;
     cursor: pointer;
 }
 img.kf-table-left-turn{
-    width: 100%;
-    line-height:100%;
+    width: 236px;
+    height: 260px;
     cursor: pointer;
 }
 
@@ -392,10 +394,15 @@ img.kf-table-left-turn{
 }
 .kf-table-footer-item1-left1 li{
     float: left;
-    width: 80px;
-    height: 23px;
     margin-left: 25px;
     cursor: pointer;
+}
+.kf-table-footer-item1-left2 img{
+    width: 80%;
+    margin-left: 22px;
+}
+.kf-table-footer-item1-left img{
+    width: 80%;
 }
 .kf-table-footer-item1-left1 li.kf-table-footer-item1-left3{
     background: url(../images/kf-table/footer3.png) no-repeat;
@@ -529,7 +536,17 @@ img.kf-table-left-turn{
     width: 66px;
     height: 19px;
     margin: 5px 28px;
+    cursor: pointer;
     /*border-right: 1px solid #5b5b5b;*/
+}
+.kf-table-footer-item1-left1 li img{
+    width: 80%;
+}
+.kf-table-footer-item3 li img{
+    width: 90%;
+}
+.kf-table-footer-item4 li img{
+    width: 85%;
 }
 .kf-table-footer-item4 li.kf-table-footer-item4-left1{
     background: url(../images/kf-table/footer1.png) no-repeat;
