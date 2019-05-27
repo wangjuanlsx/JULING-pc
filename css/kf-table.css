@@ -23,9 +23,9 @@ img.kf-table-header-img{
 }
 img.kf-table-header-pig{
     position: absolute;
-    top: 13px;
-    width: 53%;
-    left: -5%;
+    top: 0px;
+    width: 1052px;
+    left: -124px;
 }
 /*.kf-table-bg-img{
     width: 100%;
@@ -59,8 +59,8 @@ img.kf-table-header-pig{
     height: 100%;
 }
 .kf-table-header-circle1 img{
-     width: 90%;
-     height: 45%;
+    width: 333px;
+    height: 462px;
 
  }
 .kf-table-header-circle2 img{
@@ -80,22 +80,22 @@ img.kf-table-header-pig{
 }
 /*头部下载按钮*/
 .kf-table-header-btn-wrap{
-    width: 20%;
-    height: 9%;
+    width: 370px;
+    height: 107px;
     position: absolute;
     right: 34%;
     top: 39%;
 }
 .kf-table-header-btn{
-    width: 304px;
-    height: 88px;
+    width: 370px;
+    height: 107px;
     background: url(../images/kf-table/btn-nomal.png) no-repeat;
     background-size: contain;
     cursor: pointer;
 }
 .kf-table-header-btn:hover{
-    width: 304px;
-    height: 88px;
+    width: 370px;
+    height: 107px;
     background: url(../images/kf-table/btn-hover.png) no-repeat;
     background-size: contain;
 }
@@ -132,15 +132,15 @@ img.kf-table-header-pig{
     cursor: pointer;
 }
 img.kf-table-left-turn{
-    width: 350px;
-    height: 400px;
+    width: 370px;
+    height: 413px;
     cursor: pointer;
 }
 
 /*css实现翻转*/
 .kf-table-left-flip{
-    width: 113%;
-    height: 102%;
+    width: 370px;
+    height: 413px;
     position: relative;
     -webkit-perspective: 1000px;
     perspective: 1000px;
@@ -211,9 +211,9 @@ img.kf-table-left-turn{
 }
 /*右边*/
 .kf-table-right-wrap{
-    width: 320px;
-    height: 886px;
-    margin-right: 65px;
+    width: 348px;
+    height: 891px;
+    margin-right: 40px;
     margin-top: 50px;
     /*position: absolute;
     top: 60.5%;
@@ -228,7 +228,7 @@ img.kf-table-left-turn{
 }
 /*中间表格*/
 .kf-table-center-table-wrap {
-    width: 58%;
+    width: 1101px;
     /* height: 65%; */
     padding-bottom: 2px;
     margin-left: 40px;
@@ -276,19 +276,19 @@ img.kf-table-left-turn{
     vertical-align: text-top;
 }
 .kf-table-center-table th.th1{
-    width: 13%;
+    width: 160px;
 }
 .kf-table-center-table th.th2{
-    width: 12%;
+    width: 123px;
 }
 .kf-table-center-table th.th3{
-    width: 17%;
+    width: 142px;
 }
 .kf-table-center-table th.th4{
-    width: 44%;
+    width: 508px;
 }
 .kf-table-center-table th.th5{
-    width: 14%;
+    width: 170px;
 }
 .kf-table-center-table th img{
     vertical-align: middle;
@@ -329,13 +329,15 @@ img.kf-table-left-turn{
     width: 86%;
 }
 .text-style3-img{
-    width: 13%;
+    width: 58px;
+    height: 31px;
 }
 .text-style3-img img{
     width: 100%;
 }
 .last-td img{
-    width: 70%;
+    width: 99px;
+    height: 28px;
 }
 
 .text-style2-img{
