@@ -10,22 +10,132 @@ body{
     position: relative;
     width: 100%;
     height: 100%;
+    z-index: 2;
 }
 .kf-table-header-img-wrap img.kf-table-header-bg{
     width: 100%;
     height: 100%;
 }
 img.kf-table-header-img{
-    position: absolute;
+    /*position: absolute;
     top: 0;
-    left:0;
-    width: 100%;
+    left:0;*/
+    width: 1920px;
+    height: 904px;
 }
 img.kf-table-header-pig{
     position: absolute;
     top: 0px;
     width: 1052px;
     left: -124px;
+    display: none;
+}
+/*猪动画*/
+.pig-animate-bg{
+    position: absolute;
+    top: 0px;
+    left: 128px;
+    width: 902px;
+    height: 641px;
+}
+.pig-animate-wrap{
+    position: absolute;
+    top: 54px;
+    width: 815px;
+    height: 694px;
+    left: 43px;
+}
+.pig-animate{
+    background: url(../images/kf-table/pig-animate.png);
+    width: 815px;
+    height: 694px;
+    animation: piganimate 1s 2s steps(30) infinite;
+    margin: 0 auto;
+    position: relative;
+}
+@keyframes piganimate {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -3000% 0px;
+    }
+}
+/*按钮动画*/
+.kf-table-btn-animate-wrap{
+    width: 370px;
+    height: 107px;
+}
+.kf-table-btn-animate{
+    width: 370px;
+    height: 107px;
+    background: url(../images/kf-table/btn-animate.png);
+    animation: btnanimate 1s 2s steps(16) infinite;
+    margin: 0 auto;
+    position: relative;
+}
+@keyframes btnanimate {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -1600% 0px;
+    }
+}
+/*头部下载按钮*/
+.kf-table-header-btn-wrap{
+    width: 370px;
+    height: 107px;
+    position: absolute;
+    right: 37%;
+    top: 47%;
+}
+.kf-table-header-btn{
+    width: 370px;
+    height: 107px;
+    background: url(../images/kf-table/btn-nomal.png) no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    display: none;
+}
+.kf-table-header-btn:hover{
+    width: 370px;
+    height: 107px;
+    background: url(../images/kf-table/btn-hover.png) no-repeat;
+    background-size: contain;
+}
+/*新人向导*/
+.kt-new-guide-wrap{
+    cursor: pointer;
+    width: 87px;
+    height: 106px;
+    position: absolute;
+    top: 424px;
+    right: 607px;
+}
+.kt-new-guide-animate-wrap{
+    cursor: pointer;
+    width: 132px;
+    height: 132px;
+    position: absolute;
+    top: -25px;
+    right: -21px;
+}
+.kt-new-guide-animate{
+    width: 132px;
+    height: 132px;
+    background: url(../images/kf-table/new-guide-animate.png);
+    animation: newguideanimate 1s 2s steps(11) infinite;
+    margin: 0 auto;
+    position: relative;
+}
+@keyframes newguideanimate {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -1100% 0px;
+    }
 }
 /*.kf-table-bg-img{
     width: 100%;
@@ -34,8 +144,9 @@ img.kf-table-header-pig{
 .kf-table-content-wrap{
     width: 1900px;
     height: 100%;
-    margin: -480px auto 0 auto;
+    margin: -312px auto 0 auto;
     position: relative;
+    z-index: 3;
     /*margin: 0 0;
     position: absolute;
     top: 0;
@@ -55,6 +166,7 @@ img.kf-table-header-pig{
     top: 2.5%;
 }
 .kf-table-header-circle-wrap{
+    position: relative;
     width: 100%;
     height: 100%;
 }
@@ -78,26 +190,23 @@ img.kf-table-header-pig{
     height: 35%;
     margin: 1% 0 0 16%;
 }
-/*头部下载按钮*/
-.kf-table-header-btn-wrap{
-    width: 370px;
-    height: 107px;
+/*圈圈动画*/
+.kf-circle-animate1-wrap{
+    width: 176px;
+    height: 176px;
     position: absolute;
-    right: 34%;
-    top: 39%;
+    top: 0;
+    left: 0;
 }
-.kf-table-header-btn{
-    width: 370px;
-    height: 107px;
-    background: url(../images/kf-table/btn-nomal.png) no-repeat;
-    background-size: contain;
-    cursor: pointer;
+.kf-circle-animate1{
+    width: 176px;
+    height: 176px;
+    background: url(../images/kf-table/circle-animate.png) no-repeat;
+    /*animation: rotation 3s linear infinite;*/
 }
-.kf-table-header-btn:hover{
-    width: 370px;
-    height: 107px;
-    background: url(../images/kf-table/btn-hover.png) no-repeat;
-    background-size: contain;
+@-webkit-keyframes rotation{
+    from {-webkit-transform: rotate(0deg);}
+    to {-webkit-transform: rotate(360deg);}
 }
 /*左边js实现翻转牌*/
 .brand{
@@ -373,6 +482,7 @@ img.kf-table-left-turn{
     width: 100%;
     height: 100%;
     position: relative;
+    z-index: 3;
 }
 .kf-table-footer-wrap img{
     width: 100%;
@@ -590,4 +700,19 @@ img.kf-table-left-turn{
     background-size: 100%;
     background-position: 0 -81px;
     border-right: none;
+}
+/*固定背景*/
+.fixed-bg-wrap{
+    width: 1920px;
+    height: 1080px;
+    position: fixed;
+    top: 0px;
+    left: 50%;
+    margin-left: -960px;
+    z-index: 1;
+}
+.fixed-bg{
+    width: 1920px;
+    height: 1080px;
+    background: url(../images/kf-table/body-bg.jpg) no-repeat;
 }
