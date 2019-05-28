@@ -49,7 +49,7 @@ img.kf-table-header-pig{
     background: url(../images/kf-table/pig-animate.png);
     width: 815px;
     height: 694px;
-    animation: piganimate 1s 2s steps(30) infinite;
+    animation: piganimate 2s 2s steps(30) infinite;
     margin: 0 auto;
     position: relative;
 }
@@ -70,7 +70,7 @@ img.kf-table-header-pig{
     width: 370px;
     height: 107px;
     background: url(../images/kf-table/btn-animate.png);
-    animation: btnanimate 1s 2s steps(16) infinite;
+    animation: btnanimate 2s 2s steps(16) infinite;
     margin: 0 auto;
     position: relative;
 }
@@ -125,7 +125,7 @@ img.kf-table-header-pig{
     width: 132px;
     height: 132px;
     background: url(../images/kf-table/new-guide-animate.png);
-    animation: newguideanimate 1s 2s steps(11) infinite;
+    animation: newguideanimate 2s 2s steps(11) infinite;
     margin: 0 auto;
     position: relative;
 }
@@ -329,7 +329,7 @@ img.kf-table-left-turn{
     width: 348px;
     height: 891px;
     margin-right: 40px;
-    margin-top: 50px;
+    margin-top: -5px;
     /*position: absolute;
     top: 60.5%;
     right: 3%;*/
