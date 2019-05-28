@@ -117,19 +117,19 @@ img.kf-table-header-pig{
     height: 100%;
 }
 .kf-table-left-item{
-    width: 350px;
-    height: 400px;
+    width: 370px;
+    height: 413px;
     text-align: center;
     position: relative;
 }
 .kf-table-left-item .kf-table-left-turn{
     display: none;
-    height: 400px;
-    line-height:400px;
+    height: 413px;
+    line-height:413px;
 }
 .kf-table-left-item img.prev-img{
-    width: 350px;
-    height: 400px;
+    width: 370px;
+    height: 413px;
     cursor: pointer;
 }
 img.kf-table-left-turn{

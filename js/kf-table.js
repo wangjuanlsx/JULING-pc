@@ -21,6 +21,6 @@ $(function(){
             });
         });
     }
-    var verticalOpts = [{'width':0},{'width':'350px'}];
+    var verticalOpts = [{'width':0},{'width':'370px'}];
     turn($('#vertical'),180,verticalOpts);
 })
