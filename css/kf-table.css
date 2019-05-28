@@ -209,8 +209,13 @@ img.kf-table-header-pig{
     to {-webkit-transform: rotate(360deg);}
 }
 /*左边js实现翻转牌*/
+.kf-table-left-position{
+    position: relative;
+}
 .brand{
-    margin-left: 15px;
+    position: absolute;
+    top: 0;
+    margin-left: 0;
 }
 .kf-table-left-wrap{
     width: 350px;
