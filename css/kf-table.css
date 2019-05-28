@@ -195,14 +195,14 @@ img.kf-table-header-pig{
     width: 176px;
     height: 176px;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: -36px;
+    left: -37px;
 }
 .kf-circle-animate1{
-    width: 176px;
-    height: 176px;
+    width: 256px;
+    height: 256px;
     background: url(../images/kf-table/circle-animate.png) no-repeat;
-    /*animation: rotation 3s linear infinite;*/
+    animation: rotation 3s linear infinite;
 }
 @-webkit-keyframes rotation{
     from {-webkit-transform: rotate(0deg);}
@@ -484,7 +484,6 @@ img.kf-table-left-turn{
 }
 /*底部*/
 .kf-table-footer-wrap{
-
     width: 1920px;
     height: 324px;
     position: relative;
