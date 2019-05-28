@@ -3,7 +3,7 @@ body{
 }
 .kf-table-wrap{
     position: relative;
-    width: 1900px;
+    width: 1920px;
     margin: 0 auto;
 }
 .kf-table-header-img-wrap{
@@ -107,6 +107,7 @@ img.kf-table-header-pig{
     width: 350px;
     height: 400px;
     margin-top: 50px;
+    margin-left: -10px;
     /*position: absolute;
     top: 60%;
     left: 0;*/
