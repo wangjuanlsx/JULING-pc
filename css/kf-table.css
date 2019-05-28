@@ -70,7 +70,7 @@ img.kf-table-header-pig{
     width: 370px;
     height: 107px;
     background: url(../images/kf-table/btn-animate.png);
-    animation: btnanimate 2s 2s steps(16) infinite;
+    animation: btnanimate 1.5s 2s steps(16) infinite;
     margin: 0 auto;
     position: relative;
 }
@@ -125,7 +125,7 @@ img.kf-table-header-pig{
     width: 132px;
     height: 132px;
     background: url(../images/kf-table/new-guide-animate.png);
-    animation: newguideanimate 2s 2s steps(11) infinite;
+    animation: newguideanimate 1s 2s steps(11) infinite;
     margin: 0 auto;
     position: relative;
 }
@@ -203,6 +203,48 @@ img.kf-table-header-pig{
     height: 256px;
     background: url(../images/kf-table/circle-animate.png) no-repeat;
     animation: rotation 3s linear infinite;
+}
+.kf-circle-animate2-wrap{
+    width: 205px;
+    height: 205px;
+    position: absolute;
+    top: 29px;
+    right: 21px;
+}
+.kf-circle-animate2{
+    width: 205px;
+    height: 205px;
+    background: url(../images/kf-table/circle-animate2.png) no-repeat;
+    background-size: contain;
+    animation: rotation 2s linear infinite;
+}
+.kf-circle-animate3-wrap{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 148px;
+    right: 123px;
+}
+.kf-circle-animate3{
+    width: 200px;
+    height: 200px;
+    background: url(../images/kf-table/circle-animate3.png) no-repeat;
+    background-size: contain;
+    animation: rotation 2s linear infinite;
+}
+.kf-circle-animate4-wrap{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 305px;
+    right: 118px;
+}
+.kf-circle-animate4{
+    width: 180px;
+    height: 180px;
+    background: url(../images/kf-table/circle-animate4.png) no-repeat;
+    background-size: contain;
+    animation: rotation 2s linear infinite;
 }
 @-webkit-keyframes rotation{
     from {-webkit-transform: rotate(0deg);}
