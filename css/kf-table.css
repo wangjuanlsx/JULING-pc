@@ -49,7 +49,7 @@ img.kf-table-header-pig{
     background: url(../images/kf-table/pig-animate.png);
     width: 815px;
     height: 694px;
-    animation: piganimate 2s 2s steps(30) infinite;
+    animation: piganimate 3s 3s steps(30) infinite;
     margin: 0 auto;
     position: relative;
 }
@@ -65,6 +65,7 @@ img.kf-table-header-pig{
 .kf-table-btn-animate-wrap{
     width: 370px;
     height: 107px;
+    cursor: pointer;
 }
 .kf-table-btn-animate{
     width: 370px;
@@ -753,13 +754,111 @@ img.kf-table-left-turn{
     width: 1920px;
     height: 1080px;
     position: fixed;
-    top: 0px;
+    top: 500px;
     left: 50%;
     margin-left: -960px;
     z-index: 1;
+    transition: all 1s;
 }
 .fixed-bg{
     width: 1920px;
     height: 1080px;
     background: url(../images/kf-table/body-bg.jpg) no-repeat;
+}
+/*下载弹框*/
+.mark{
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.8;
+    filter:alpha(opacity=80);
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 4;
+    display: none;
+}
+.mark-content-wrap{
+    width: 1028px;
+    height: 882px;
+    position: fixed;
+    top: -10px;
+    left: 50%;
+    margin-left: -514px;
+    /*margin-top: -400px;*/
+    z-index: 5;
+    display: none;
+}
+.mark-content{
+    width: 1028px;
+    height: 882px;
+    position: relative;
+}
+.mark-close-btn{
+    cursor: pointer;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 113px;
+    height: 113px;
+    background: url(../images/kf-table/loading/close-btn.png);
+}
+.mark-close-btn:hover{
+    background: url(../images/kf-table/loading/close-btn-hover.png);
+}
+.mark-loading-btn1-wrap{
+    position: absolute;
+    top: 587px;
+    left: 210px;
+}
+.mark-loading-btn1{
+    cursor: pointer;
+    display: inline-block;
+    width: 139px;
+    height: 48px;
+    line-height: 48px;
+    color: #ffe2ac;
+    background: url(../images/kf-table/loading/btn1.png);
+}
+.mark-loading-btn1 p {
+    padding-left: 47px;
+    font-size: 15px;
+}
+.mark-loading-btn1 p.mark-loading-btn1-p{
+    padding-left: 42px;
+}
+.mark-loading-btn1:hover{
+    background: url(../images/kf-table/loading/btn1-hover.png);
+}
+.mark-loading-btn2-wrap{
+    position: absolute;
+    width: 139px;
+    height: 33px;
+}
+.mark-loading-btn2-wrap{
+    position: absolute;
+    top: 534px;
+    right: 177px;
+}
+.mark-loading-btn2{
+    cursor: pointer;
+    width: 139px;
+    height: 33px;
+    height: 33px;
+    line-height: 33px;
+    color: #ffe2ac;
+    background: url(../images/kf-table/loading/btn2.png);
+}
+.mark-loading-btn2 p{
+    padding-left: 47px;
+}
+.mark-loading-btn2:hover{
+    width: 139px;
+    height: 33px;
+    background: url(../images/kf-table/loading/btn2-hover.png);
+}
+.mark-loading-btn3-wrap{
+    position: absolute;
+    top: 618px;
+    right: 177px;
 }
